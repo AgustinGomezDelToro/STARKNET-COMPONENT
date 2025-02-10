@@ -3,8 +3,6 @@ name = "cours0"
 version = "0.1.0"
 edition = "2023_11"
 
-# See more keys and their definitions at https://docs.swmansion.com/scarb/docs/reference/manifest.html
-
 [dependencies]
 openzeppelin = { git = "https://github.com/openzeppelin/cairo-contracts", tag = "v0.17.0" }
 starknet = "2.8.2"
@@ -12,7 +10,6 @@ starknet = "2.8.2"
 [dev-dependencies]
 snforge_std = { git = "https://github.com/foundry-rs/starknet-foundry.git", tag = "v0.25.0" }
 
-# Definición corregida con minúsculas
 [[target.starknet-contract]]
 name = "cours0"
 sierra = true
@@ -23,3 +20,10 @@ name = "switchcontract"  # Cambiado a minúsculas
 path = "src/core/SwitchContract.cairo"
 sierra = true
 casm = true
+
+[[target.starknet-contract]]
+name = "erc20componentcontract"  # Nuevo target para el contrato ERC20ComponentContract
+path = "src/core/ERC20ComponentContract.cairo"
+sierra = true
+casm = true
+

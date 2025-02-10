@@ -32,10 +32,19 @@ https://sepolia.starkscan.co/token/0x01bfa2cd2dcf19681aca942f4951277db9dd43c4997
 
 
 
-## Link to the Component contract
+## Link to the Component switchable
 
 #### Transaction :
 https://sepolia.voyager.online/tx/0x492fb82d832ccd121973d74113129bac6f455d692482b5801a6df9187eb3645
 
 #### Token:
 https://sepolia.voyager.online/token/0x06f6647067da2f878ba129dce9ba3d91154c851f47d9cb02fba54ebebf5a1cb4
+
+
+## Link to the Component contract
+
+#### Transaction :
+https://sepolia.voyager.online/tx/0x04e07509a690855367d0ea85ad9eed11cd6b6ea2fcd1602821f78013291d506b
+
+#### Contract address
+0x058a13eb8a026e07f7968806bf949dcb1a5b752350905ecfad03587e1621eeae
